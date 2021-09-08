@@ -72,7 +72,7 @@ RUN apt-get update && \
 #    service sshguard restart
 
 EXPOSE 30333 9933 9944
-VOLUME ["/root/.local/share/Polkadot"]
+VOLUME ["/root/.local/share/polkadot"]
 #
 COPY startup.sh startup.sh
 RUN chmod +x startup.sh
